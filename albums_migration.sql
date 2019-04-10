@@ -7,7 +7,7 @@ CREATE TABLE albums(
   artist VARCHAR(50) NOT NULL,
   name VARCHAR(100) NOT NULL,
   -- release_date INT
-  release_date YEAR,
+  release_date INT,
   -- sales DECIMAL(9,5)  --1234.56789  this is like scientific notation
   sales float,
   genre VARCHAR(100),
