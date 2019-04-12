@@ -13,3 +13,8 @@ CREATE TABLE albums(
   genre VARCHAR(100),
   PRIMARY KEY (id)
 );
+
+ALTER TABLE albums
+ADD UNIQUE (artist, name);
+
+DESCRIBE albums;
